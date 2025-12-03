@@ -34,11 +34,11 @@ module.exports = {
     DEFAULT_MENTION_COUNT: 3,
     RANDOM_CHAR_LENGTH: 64,
     
-    BOT_TOKEN: 'MTQ0MjY4MTA2NDUxNzUzNzkzNw.GNXUPG.5fOfSatvFwth3ZJjd7LveToU6BuzHIiQP0Q9lA',
-    CLIENT_ID: '1442681064517537937',
+    BOT_TOKEN: process.env.BOT_TOKEN || '',
+    CLIENT_ID: process.env.CLIENT_ID || '',
     
-    BOT_TOKEN_2: 'MTQ0NDQ3NzY5NjU2MTI1NDYwMA.GJWdR2.HdRfxblYQO3KCCmP1oEfuc5y6yseWDZIclvv1M',
-    BOT_TOKEN_3: 'MTQ0MjY4MzEwMDkyNzg4NTM0Mg.GqU4lu.XLyUj93ZMNXdL9U4Y66X88cCWpk8T8vY22JhY0',
+    BOT_TOKEN_2: process.env.BOT_TOKEN_2 || '',
+    BOT_TOKEN_3: process.env.BOT_TOKEN_3 || '',
     
     PORT: process.env.PORT || 10000,
     
